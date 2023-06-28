@@ -29,7 +29,7 @@ resource "aws_instance" "blog" {
   }
 }
 
-resource = "aws_security_group" "blog" {
+resource "aws_security_group" "blog" {
   name = "blog"
   description = "Allow http and htts in.  Allow everything out"
 
